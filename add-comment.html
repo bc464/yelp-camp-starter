@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <title>Yelp_Camp | Camping Grounds</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <div class="project-info flex">
+      <p class="proeject-text">This project was made by <a href="#" class="project-link">Colt Steele</a> and designed by <a href="#" class="project-link">Codewell</a></p>
+      <img src="Assets/close.svg" class="close-icon" alt="close-icon">
+    </div>
+    <header class="campingground-header-section">
+      <a href="index.html" class="campingground-logo-link"><img src="Assets/Logo.svg" alt="logo"></a>
+      <nav class="main-navbar">
+        <div class="main-nav-list">
+          <a href="campgrounds-logged-in.html" class="main-nav-links">Home</a>
+        <div class="main-navbar-right ">
+          <a href="#"  class="main-nav-links active">User-Name</a>
+          <a href="index.html" class=" main-nav-links">Logout</a>
+        </div>
+      </div>
+      </nav>
+      <button class="btn-mobile-nav">
+         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="container-main-heading">Add New Comment</h1>
+        <form class="container-form">
+          <div class="container-label">
+            <label for="comment-description">Description</label>
+          </div>
+          <div>
+            <textarea rows="7" cols="50" class="container-input comment-description" placeholder="This was probably the best camp i've visitedthis past year, definitely recommend visiting any time soon"></textarea>
+          </div>
+          <button class="btn btn-container">Post Comment</button>
+        </form>
+      </div>
+    </main>
+    <footer class="campingground-footer-section">
+        <a href="index.html" class="campingground-logo-link"><img src="Assets/Logo.svg" alt="logo"></a>
+      </footer>
+    <script type="text/javascript"src="script.js"></script>
+  </body>
+</html>

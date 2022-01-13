@@ -1,0 +1,271 @@
+/**LANDING PAGES****/
+
+@media(max-width:59em ){
+  html {
+    /*8px /16 = 0.5*/
+    font-size: 70%;
+  }
+  .main-navbar {
+    margin-bottom: 3rem;
+  }
+  .landing-page-hero-section {
+    flex-direction: column-reverse;
+    gap:  2rem;
+    padding-left: 0;
+    margin-bottom: 2rem;
+  }
+  .hero-section-right {
+    width: 100%;
+  }
+  .hero-section-left {
+    width: 90%;
+  }
+  .hero-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only Screen and (max-width: 40em) {
+  html {
+    font-size: 70%;
+  }
+  .hero-main-heading {
+    font-size: 4rem;
+  }
+  .container-login {
+    flex-direction: column;
+  }
+}
+/****CAMPGROUNDS *****/ 
+
+@media(max-width:59em ){
+  html {
+    /*8px /16 = 0.5*/
+    font-size: 70%;
+  }
+  .campingground-header-section {
+    position: relative;
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+  .campingground-welcome-section,
+  .campingground-footer-section {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+  .welcome-main-text {
+    width: 50%;
+  }
+  .campsites-section {
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    gap:  1rem;
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index:  1000;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+  }
+  .main-nav-list {
+    background-color: rgba(255, 255, 255, 0.87);
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    width: 100%;
+    height: auto;
+
+    transform: translateX(100%);
+
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    text-align: left;
+    float: left;
+
+
+    transition: all 0.5s ease-in;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .main-navbar-right {
+    float: left;
+  }
+  .nav-open .main-nav-list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-links {
+    display:  block;
+    margin-bottom: 1rem;
+    color: #000;
+    z-index: 100;
+  }
+}
+@media only Screen and (max-width: 40em) {
+  html {
+    font-size: 70%;
+  }
+  .campingground-header-section {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .campingground-welcome-section,
+  .campsites-section,
+  .campingground-footer-section {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .campingground-welcome-section {
+    padding: 3rem;
+  }
+  .campsites-section {
+    grid-template-columns: 1fr;
+  }
+  .welcome-main-text {
+    width: 90%;
+  }
+  .search-section {
+    width: 100%;
+    flex-direction: column;
+    gap:  1rem;
+  }
+  .search-input,
+  .search-btn {
+    width: 100%;
+  }
+  .search-btn {
+    text-align: center;
+  }
+}
+/***LOGIN PAGE***/
+@media(max-width:59em ){
+  html {
+    /*8px /16 = 0.5*/
+    font-size: 70%;
+  }
+  .container-login {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .login-header-section {
+    width: 90%;
+  }
+  .login-page-section {
+    width: 90%;
+  }
+  .login-header-section {
+    margin-bottom: 10rem;
+  }
+  .container-login-left,
+  .container-login-right {
+    width: 100%;
+  }
+  .login-input,
+  .btn-login {
+    width: 60%;
+  }
+  .container-login-right {
+    padding: 2rem .5rem;
+    height: auto;
+  }
+  .user-testimonial-section {
+   margin-top: 5%;
+   margin-left: 1%;
+  }
+  .user-text {
+      width: 100%;
+      font-size: 2.5rem;
+  }
+}
+
+@media only Screen and (max-width: 40em) {
+  html {
+    font-size: 70%;
+  }
+.login-header-section,
+  .login-page-section {
+    width: 95%;
+  }
+  .login-main-heading {
+    width: 70%;
+  }
+  .login-input,
+  .btn-login {
+    width: 100%;
+  }
+}
+/***ADD-CAMPGROUND PAGE***/
+@media(max-width:59em ){
+  html {
+    /*8px /16 = 0.5*/
+    font-size: 70%;
+  }
+  .container {
+    width: 90%;
+    padding-top: 3rem;
+  }
+}
+
+@media only Screen and (max-width: 40em) {
+  html {
+    font-size: 70%;
+  }
+  .container-main-heading {
+    width: 70%;
+  }
+  .container-input,
+  .btn-container {
+    width: 90%;
+  }
+}
+
+/***EACH CAMPSITE PAGE***/
+@media(max-width:59em ){
+  html {
+    /*8px /16 = 0.5*/
+    font-size: 70%;
+  }
+  .each-camp-header-section {
+    padding-bottom: 2rem;
+  }
+  .each-camp-section {
+    flex-direction: column-reverse;
+    width: 90%;
+    gap:  1rem;
+  }
+  .left-camp-section,
+  .right-camp-section {
+    width: 100%;
+  }
+  .review-btn {
+    float: left;
+  }
+}
+
+@media only Screen and (max-width: 40em) {
+  html {
+    font-size: 70%;
+  }
+  .review-btn {
+    width: 80%;
+  }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <title>Yelp_Camp | Camping Grounds</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+    <div class="project-info flex">
+      <p class="proeject-text">This project was made by <a href="#" class="project-link">Colt Steele</a> and designed by <a href="#" class="project-link">Codewell</a></p>
+      <img src="Assets/close.svg" class="close-icon" alt="close-icon">
+    </div>
+    <header class="campingground-header-section">
+      <a href="index.html" class="campingground-logo-link"><img src="Assets/Logo.svg" alt="logo"></a>
+      <nav class="main-navbar">
+        <div class="main-nav-list ">
+          
+          <a href="campgrounds.html" class="main-nav-links">Home</a>
+        <!-- </div> -->
+        <div class="main-navbar-right ">
+          <a href="login.html" class="main-nav-links">Login</a>
+          <a href="create-account.html" class="btn main-nav-links">Create an account!</a>
+        </div>
+      </div>
+      </nav>
+      <button class="btn-mobile-nav">
+         <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+        <section class="campingground-welcome-section">
+          <h1 class="welcome-main-heading">Welcome to YelpCamp!</h1>
+          <p class="welcome-main-text">View our hand-picked campgrounds from all over the world or add your own.</p>
+          <div class="search-section flex">
+            <img src="Assets/Search Icon.svg" alt="search-icon" class="search-icon">
+            <input type="text" name="search" class="search-input" placeholder="Search for camps">
+            <a href="#" class="btn search-btn">Search</a>
+          </div>
+          <a href="login.html" class="own-campground-link">Or add your own campground</a>
+        </section>
+        <section class="campsites-section grid">
+          <div class="campsite-box">
+            <img src="Assets/Camp Images/Compressed Images/Mount Ulap.jpg" alt="mount ulap" class="campsite-img">
+            <h2 class="campsite-heading">Mount Ulap</h2>
+            <p  class="campsite-text">One of the most famous hikes in Benguet is Mt Ulap in Itogon.</p>
+            <div class="campsite-btn">
+            <a href="mount-ulap.html" class="campsite-link">View Campground</a>
+          </div>
+          </div>
+          <div class="campsite-box">
+            <img src="Assets/Camp Images/Compressed Images/Calaguas Island.jpg" alt="calaguas Island" class="campsite-img">
+            <h2 class="campsite-heading">Calaguas Islands</h2>
+            <p  class="campsite-text">A paradise of islands that can rival the white sand beauty of Boracay.</p>
+            <div class="campsite-btn">
+            <a href="calaguas-islands.html" class="campsite-link">View Campground</a>
+          </div>
+          </div>
+          <div class="campsite-box">
+            <img src="Assets/Camp Images/Compressed Images/Onay Beach.jpg" alt="Onay beach" class="campsite-img">
+            <h2 class="campsite-heading">Onay Beach</h2>
+            <p  class="campsite-text">This is one of the best beach camping sites, beautiful and pristine.</p>
+            <div class="campsite-btn">
+            <a href="onay-beach.html" class="campsite-link">View Campground</a>
+          </div>
+          </div>
+          <div class="campsite-box">
+            <img src="Assets/Camp Images/Compressed Images/Seven Sisters Waterfall.jpg" alt="Seven Sisters Waterfall" class="campsite-img">
+            <h2 class="campsite-heading">Seven Sisters Waterfall</h2>
+            <p  class="campsite-text">The Seven Sisters is the 39th tallest waterfall in Norway.</p>
+            <div class="campsite-btn">
+            <a href="seven-sisters.html" class="campsite-link">View Campground</a>
+          </div>
+          </div>
+          <div class="campsite-box">
+            <img src="Assets/Camp Images/Compressed Images/Latik Riverside.jpg" alt="Latik Riverside" class="campsite-img">
+            <h2 class="campsite-heading">Latik Riverside</h2>
+            <p  class="campsite-text">Philippines is one of the most dazzling countries in all of Asia.</p>
+            <div class="campsite-btn">
+            <a href="latik-riverside.html" class="campsite-link">View Campground</a>
+          </div>
+          </div>
+          <div class="campsite-box">
+            <img src="Assets/Camp Images/Compressed Images/Buloy Springs.jpg" alt="Buloy Springs" class="campsite-img">
+            <h2 class="campsite-heading">Buloy Springs</h2>
+            <p  class="campsite-text">This is one of the best beach camping sites, beautiful and pristine.</p>
+            <div class="campsite-btn">
+            <a href="buloy-springs.html" class="campsite-link">View Campground</a>
+          </div>
+        </div>
+      </section>
+      <footer class="campingground-footer-section">
+        <a href="index.html" class="campingground-logo-link"><img src="Assets/Logo.svg" alt="logo"></a>
+      </footer>
+     </main>
+     <script type="text/javascript"src="script.js"></script>
+  </body>
+</html>
